@@ -54,7 +54,7 @@ document.body.appendChild(plainJSX(
 ));
 ```
 
-To make this output actually work, you just need the `plainJSX` global to exist:
+For this output to run, you just need the `plainJSX` global to exist:
 
 ```html
 <script src="plain-jsx/index.js"></script>
@@ -80,7 +80,7 @@ Or just copy and paste it somewhere.
 
 This is new and probably misses parts of JSX. [Open an issue](https://github.com/callumlocke/plain-jsx/issues) if there's something else it should do.
 
-Also needs tests.
+Also needs tests (via testling?). PRs welcome.
 
 
 ## licence
