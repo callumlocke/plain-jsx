@@ -54,7 +54,7 @@ document.body.appendChild(plainJSX(
 ));
 ```
 
-To make that work, you just need the `plainJSX` global to exist:
+To make this output actually work, you just need the `plainJSX` global to exist:
 
 ```html
 <script src="plain-jsx/index.js"></script>
