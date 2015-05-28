@@ -80,6 +80,8 @@ Or just copy and paste it somewhere.
 
 This is new and probably misses parts of JSX. [Open an issue](https://github.com/callumlocke/plain-jsx/issues) if there's something else it should do.
 
+Also needs tests.
+
 
 ## licence
 
