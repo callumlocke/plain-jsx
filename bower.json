@@ -1,0 +1,25 @@
+{
+  "name": "plain-jsx",
+  "version": "1.0.0",
+  "description": "Render JSX into plain DOM nodes (without using React)",
+  "main": "index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jsx",
+    "react"
+  ],
+  "authors": [
+    "Callum Locke"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/callumlocke/plain-jsx",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

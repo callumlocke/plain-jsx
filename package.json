@@ -1,0 +1,23 @@
+{
+  "name": "plain-jsx",
+  "description": "Render JSX into plain DOM nodes (without using React)",
+  "version": "1.0.0",
+  "author": "Callum Locke",
+  "bugs": {
+    "url": "https://github.com/callumlocke/plain-jsx/issues"
+  },
+  "devDependencies": {
+    "eslint": "^0.21.2"
+  },
+  "homepage": "https://github.com/callumlocke/plain-jsx",
+  "keywords": [
+    "jsx",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callumlocke/plain-jsx"
+  }
+}
