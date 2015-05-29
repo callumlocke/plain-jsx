@@ -9,7 +9,7 @@
 
 Use `plainJSX` as your rendering function and you'll get **real elements** that you can append directly to the DOM.
 
-For example, if you put this through any JSX transformer (<a href="https://babeljs.io/repl/#?experimental=false&evaluate=true&loose=true&spec=false&code=%2F**%20%40jsx%20plainJSX%20*%2F%0A%0Adocument.body.appendChild(%0A%20%20%3Csection%3E%0A%20%20%20%20%3Ch1%3EABC%3C%2Fh1%3E%0A%0A%20%20%20%20%3Cul%20class%3D%22list%22%3E%0A%20%20%20%20%20%20%7B%5B'A'%2C%20'B'%2C%20'C'%5D.map(letter%20%3D%3E%20%3Cli%3E%7Bletter%7D%3C%2Fli%3E)%7D%0A%20%20%20%20%3C%2Ful%3E%0A%20%20%3C%2Fsection%3E%0A)%3B">try it in Babel</a>):
+For example, if you put this through Babel (<a href="https://babeljs.io/repl/#?experimental=false&evaluate=true&loose=true&spec=false&code=%2F**%20%40jsx%20plainJSX%20*%2F%0A%0Adocument.body.appendChild(%0A%20%20%3Csection%3E%0A%20%20%20%20%3Ch1%3EABC%3C%2Fh1%3E%0A%0A%20%20%20%20%3Cul%20class%3D%22list%22%3E%0A%20%20%20%20%20%20%7B%5B'A'%2C%20'B'%2C%20'C'%5D.map(letter%20%3D%3E%20%3Cli%3E%7Bletter%7D%3C%2Fli%3E)%7D%0A%20%20%20%20%3C%2Ful%3E%0A%20%20%3C%2Fsection%3E%0A)%3B">try it in the REPL</a>):
 
 ```jsx
 /** @jsx plainJSX */
