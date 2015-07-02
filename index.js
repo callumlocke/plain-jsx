@@ -1,4 +1,4 @@
-window.plainJSX = function (tagName, attributes) {
+var plainJSX = function (tagName, attributes) {
   'use strict';
 
   var children = Array.prototype.concat.apply([], Array.prototype.slice.call(arguments, 2));
