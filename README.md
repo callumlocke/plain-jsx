@@ -67,18 +67,18 @@ It's a [tiny function](https://github.com/callumlocke/plain-jsx/blob/master/inde
 $ bower install --save plain-jsx
 ```
 
+Or:
+
 ```sh
 $ npm install --save-dev plain-jsx
 ```
 
-Or just copy and paste it somewhere.
+Or you could just copy and paste [the plainJSX function](./index.js) into your app.
 
 
 ## status
 
-This is new and probably misses parts of JSX. [Open an issue](https://github.com/callumlocke/plain-jsx/issues) if there's something else it should do.
-
-Also needs tests (via testling?). PRs welcome.
+Seems to work fine. But it could do with some tests – PRs welcome!
 
 
 ## licence
